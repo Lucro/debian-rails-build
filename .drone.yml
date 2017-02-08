@@ -8,6 +8,6 @@ pipeline:
     repo: arobson/debian-rails-build
     tags:
       - latest
-      - "2.3.3-4.2.6"
+      - "2.3.1"
     when:
       branch: master

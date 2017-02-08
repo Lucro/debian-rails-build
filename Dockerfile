@@ -1,4 +1,4 @@
-FROM arobson/debian-rails
+FROM arobson/debian-rails:latest
 MAINTAINER arobson <arobson@gmail.com>
 
 ENV DEV_PACKAGES="build-essential wget git chrpath libssl-dev libxft-dev libsqlite3-0 libmysqlclient-dev webkit-image-qt qtbase5-dev libfreetype6 libfreetype6-dev libfontconfig1 libconfig-dev"
