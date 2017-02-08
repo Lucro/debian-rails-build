@@ -1,7 +1,7 @@
 FROM arobson/debian-rails:latest
 MAINTAINER arobson <arobson@gmail.com>
 
-ENV DEV_PACKAGES="build-essential wget git chrpath libssl-dev libxft-dev libsqlite3-0 libmysqlclient-dev webkit-image-qt qtbase5-dev libfreetype6 libfreetype6-dev libfontconfig1 libconfig-dev"
+ENV DEV_PACKAGES="build-essential wget git chrpath libssl-dev libxft-dev libsqlite3-0 libmysqlclient-dev webkit-image-qt qtbase5-dev libfreetype6 libfreetype6-dev libfontconfig1 libconfig-dev qt5-default libqt5webkit5-dev gstreamer1.0-plugins-base gstreamer1.0-tools gstreamer1.0-x"
 
 RUN apt-get update
 RUN apt-get install -y $DEV_PACKAGES
