@@ -5,7 +5,7 @@ pipeline:
     username: ${DOCKER_USERNAME}
     password: ${DOCKER_PASSWORD}
     email: ${DOCKER_EMAIL}
-    repo: arobson/debian-rails-build
+    repo: lucro/debian-rails-build
     tags:
       - latest
       - "2.3.1"
