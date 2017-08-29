@@ -1,2 +1,2 @@
 ## debian-rails-build
-A custom version of ruby on rails pegged to rails 4.2.6 and ruby 2.3.1 for rspec and teaspoon builds.
+Ruby image with app pre-requisites and phantom installed for testing
